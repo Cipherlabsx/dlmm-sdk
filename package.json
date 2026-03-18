@@ -1,7 +1,7 @@
 {
   "name": "@orbitfinance/dlmm",
   "version": "0.1.0",
-  "description": "TypeScript SDK for Orbit Finance DLMM — concentrated liquidity on Solana",
+  "description": "TypeScript SDK for Orbit Finance DLMM \u00e2\u20ac\u201d concentrated liquidity on Solana",
   "license": "MIT",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -24,7 +24,8 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "lint": "tsc --noEmit",
-    "clean": "rm -rf dist"
+    "clean": "rm -rf dist",
+    "prepare": "npm run build"
   },
   "peerDependencies": {
     "@coral-xyz/anchor": ">=0.30.0",
